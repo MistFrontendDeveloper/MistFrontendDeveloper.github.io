@@ -1,0 +1,310 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>小柒 Blog - 种自己的花，爱自己的宇宙。</title><meta name="author" content="小柒"><meta name="copyright" content="小柒"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
+<meta property="og:title" content="小柒 Blog">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="小柒 Blog">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/img/avatar.png">
+<meta property="article:author" content="小柒">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/img/avatar.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '小柒 Blog',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2023-08-08 13:32:38'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">9</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">15</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr/></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('/img/top_img.png')"><nav id="nav"><span id="blog-info"><a href="/" title="小柒 Blog"><span class="site-name">小柒 Blog</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">小柒 Blog</h1><div id="site-subtitle"><span id="subtitle"></span></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/08/08/%E7%AC%94%E8%AF%95%E9%A2%98/" title="笔试题">笔试题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-08-08T05:04:14.000Z" title="发表于 2023-08-08 13:04:14">2023-08-08</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a href="/2023/08/08/%E7%AC%94%E8%AF%95%E9%A2%98/#post-comment"><span class="valine-comment-count" data-xid="/2023/08/08/%E7%AC%94%E8%AF%95%E9%A2%98/"><i class="fa-solid fa-spinner fa-spin"></i></span></a><span class="article-meta-label"> 条评论</span></span></div><div class="content"></div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/08/08/%E6%B5%8F%E8%A7%88%E5%99%A8%E9%9D%A2%E8%AF%95%E9%A2%98/" title="浏览器面试题">浏览器面试题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-08-08T04:48:59.000Z" title="发表于 2023-08-08 12:48:59">2023-08-08</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a href="/2023/08/08/%E6%B5%8F%E8%A7%88%E5%99%A8%E9%9D%A2%E8%AF%95%E9%A2%98/#post-comment"><span class="valine-comment-count" data-xid="/2023/08/08/%E6%B5%8F%E8%A7%88%E5%99%A8%E9%9D%A2%E8%AF%95%E9%A2%98/"><i class="fa-solid fa-spinner fa-spin"></i></span></a><span class="article-meta-label"> 条评论</span></span></div><div class="content"></div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/08/08/HTML-%E9%9D%A2%E8%AF%95%E9%A2%98/" title="HTML 面试题">HTML 面试题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-08-08T04:48:09.000Z" title="发表于 2023-08-08 12:48:09">2023-08-08</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a href="/2023/08/08/HTML-%E9%9D%A2%E8%AF%95%E9%A2%98/#post-comment"><span class="valine-comment-count" data-xid="/2023/08/08/HTML-%E9%9D%A2%E8%AF%95%E9%A2%98/"><i class="fa-solid fa-spinner fa-spin"></i></span></a><span class="article-meta-label"> 条评论</span></span></div><div class="content"></div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/08/07/JavaScript-%E9%9D%A2%E8%AF%95%E9%A2%98/" title="JavaScript 面试题">JavaScript 面试题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-08-07T14:45:40.000Z" title="发表于 2023-08-07 22:45:40">2023-08-07</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a href="/2023/08/07/JavaScript-%E9%9D%A2%E8%AF%95%E9%A2%98/#post-comment"><span class="valine-comment-count" data-xid="/2023/08/07/JavaScript-%E9%9D%A2%E8%AF%95%E9%A2%98/"><i class="fa-solid fa-spinner fa-spin"></i></span></a><span class="article-meta-label"> 条评论</span></span></div><div class="content">✅ 什么是原型链？原型链是 JavaScript 中的一个概念，它是由对象的原型（prototype）组成的链式结构。当访问一个对象的属性或方法时，如果对象本身没有找到，JavaScript 会在其原型链上继续查找，直到找到该属性或方法或者到达原型链的顶端（通常是 Object.prototype）为止。
+原型链图：
+
+✅ 什么是 Event Loop？Event Loop 是 JavaScript 中一种用于处理异步操作的机制。
+❓Event Loop 的工作原理是什么？未完待续
+✅ JavaScript 中定时器的时间间隔意味着什么？定时器的时间间隔决定了回调函数何时被放入到消息队列中。
+✅ JavaScript 中 0.1 + 0.2 为什么不等于 0.3？如何解决？JavaScript 中的数字都是以 64 位浮点数的形式存储的，而 0.1 和 0.2 的二进制表示都是无限循环的，因此在计算机中无法精确表示，所以 0.1 + 0.2 不等于 0.3。
+解决方法：
+方法 1：转换为整数处理
+1let result = (0.1 * 10 + 0.2 * 10) / 10; //  ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/08/07/Webpack-%E9%9D%A2%E8%AF%95%E9%A2%98/" title="Webpack 面试题">Webpack 面试题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-08-07T14:43:31.000Z" title="发表于 2023-08-07 22:43:31">2023-08-07</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a href="/2023/08/07/Webpack-%E9%9D%A2%E8%AF%95%E9%A2%98/#post-comment"><span class="valine-comment-count" data-xid="/2023/08/07/Webpack-%E9%9D%A2%E8%AF%95%E9%A2%98/"><i class="fa-solid fa-spinner fa-spin"></i></span></a><span class="article-meta-label"> 条评论</span></span></div><div class="content">❓ Webpack 有哪些性能</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/08/07/CSS-%E9%9D%A2%E8%AF%95%E9%A2%98/" title="CSS 面试题">CSS 面试题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-08-07T14:38:38.000Z" title="发表于 2023-08-07 22:38:38">2023-08-07</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a href="/2023/08/07/CSS-%E9%9D%A2%E8%AF%95%E9%A2%98/#post-comment"><span class="valine-comment-count" data-xid="/2023/08/07/CSS-%E9%9D%A2%E8%AF%95%E9%A2%98/"><i class="fa-solid fa-spinner fa-spin"></i></span></a><span class="article-meta-label"> 条评论</span></span></div><div class="content">✅ 如何实现水平垂直居中？方法一：使用 Flex 布局
+12345.container &#123;    display: flex;    justify-content: center; /* 水平居中 */    align-items: center; /* 垂直居中 */&#125;
+
+方法二：使用网格布局
+1234.container &#123;    display: grid;    place-items: center; /* 同时实现水平和垂直居中 */&#125;
+
+方法三：使用绝对定位和 transform
+12345678910.parent &#123;    position: relative;&#125;.child &#123;    position: absolute;    top: 50%;    left: 50%;    transform: translate(-50%, -50%); /* 将自身的宽高的一半作为偏移量 */&#125;
+
+✅ 如何实现样式隔离？
+命名约定
+CSS Modules
+CSS-in-JS
+
+✅ 如何实 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/08/07/TypeScript-%E9%9D%A2%E8%AF%95%E9%A2%98/" title="TypeScript 面试题">TypeScript 面试题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-08-07T08:53:15.000Z" title="发表于 2023-08-07 16:53:15">2023-08-07</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a href="/2023/08/07/TypeScript-%E9%9D%A2%E8%AF%95%E9%A2%98/#post-comment"><span class="valine-comment-count" data-xid="/2023/08/07/TypeScript-%E9%9D%A2%E8%AF%95%E9%A2%98/"><i class="fa-solid fa-spinner fa-spin"></i></span></a><span class="article-meta-label"> 条评论</span></span></div><div class="content">✅ 什么是 TypeScript？TypeScript 是 JavaScript 的超集，作用是为 JavaScript 提供静态类型系统。
+✅ TypeScript 的优缺点是什么？优点：
+
+静态类型
+前置错误
+易于重构
+
+缺点：
+
+学习成本
+开发成本
+编译成本
+
+✅ 使用过 TypeScript 哪些特性？
+接口
+别名
+类型注解
+泛型
+枚举
+断言
+命名空间
+声明文件
+工具函数
+keyof
+
+✅ 如何实现工具函数 Pick123type MyPick&lt;T, K extends keyof T&gt; = &#123;    [P in K]: T[P];&#125;;
+
+✅ 如何描述异步函数的返回值类型？使用 Promise 泛型来表示异步函数的返回值类型。
+123async function asyncFunction(): Promise&lt;string&gt; &#123;    return &#x27;Hello World&#x27;;&#125;
+
+✅ TypeScript 中 interface 和 type 的区别？合并声明：
+
+interface可以合并 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/08/07/React-%E9%9D%A2%E8%AF%95%E9%A2%98/" title="React 面试题">React 面试题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-08-07T08:45:51.000Z" title="发表于 2023-08-07 16:45:51">2023-08-07</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a href="/2023/08/07/React-%E9%9D%A2%E8%AF%95%E9%A2%98/#post-comment"><span class="valine-comment-count" data-xid="/2023/08/07/React-%E9%9D%A2%E8%AF%95%E9%A2%98/"><i class="fa-solid fa-spinner fa-spin"></i></span></a><span class="article-meta-label"> 条评论</span></span></div><div class="content">✅ React 中类组件和函数组件的区别是什么？
+心智模型：类组件基于面向对象，而函数组件基于函数式编程的。
+逻辑复用：类组件的逻辑难以复用，而函数组件的逻辑可以通过 Hooks 复用。
+状态管理：类组件通过 this.state 和 this.setState 来管理状态，而函数组件自身不能管理状态。
+生命周期：类组件有生命周期，而函数组件没有生命周期。
+代码量：类组件存在大量模版代码，因此代码量比函数组件大。
+
+✅ React 从 Mixin 到 HOC 再到 Hooks 的发展历程中各自的优缺点是什么？Mixin 优点：
+
+逻辑复用
+
+Mixin 缺点：
+
+命名冲突
+隐式依赖
+
+HOC 优点：
+
+逻辑复用
+显式包装（Fix Mixin：命名冲突、隐式依赖）
+
+HOC 缺点：
+
+嵌套地狱
+
+Hooks 优点：
+
+逻辑复用
+避免嵌套（Fix HOC：嵌套地狱）
+
+Hooks 缺点：
+
+学习曲线
+语法限制
+
+✅ 为什么 setState 是异步的？React 为了提高渲染性能，默认会对 setState 进行批处理，如果多次调用 setState，React 只会保留最后一次调用。
+✅ ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/06/01/%E7%9C%81%E5%8E%BB-Mac-%E4%B8%AD%E9%A2%91%E7%B9%81%E8%BE%93%E5%85%A5-sudo-%E7%9A%84%E8%A1%8C%E4%B8%BA/" title="省去 Mac 中频繁输入 sudo 的行为">省去 Mac 中频繁输入 sudo 的行为</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-06-01T13:30:42.000Z" title="发表于 2023-06-01 21:30:42">2023-06-01</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a href="/2023/06/01/%E7%9C%81%E5%8E%BB-Mac-%E4%B8%AD%E9%A2%91%E7%B9%81%E8%BE%93%E5%85%A5-sudo-%E7%9A%84%E8%A1%8C%E4%B8%BA/#post-comment"><span class="valine-comment-count" data-xid="/2023/06/01/%E7%9C%81%E5%8E%BB-Mac-%E4%B8%AD%E9%A2%91%E7%B9%81%E8%BE%93%E5%85%A5-sudo-%E7%9A%84%E8%A1%8C%E4%B8%BA/"><i class="fa-solid fa-spinner fa-spin"></i></span></a><span class="article-meta-label"> 条评论</span></span></div><div class="content">在使用 Mac 时，可能会遇到需要执行管理员权限操作的情况。这时，频繁地输入 sudo 密码可能变得繁琐且不便。别担心！本文将为您揭示一些简单的方法，让您告别频繁输入 sudo 的困扰。
+注：请注意，在修改系统设置或执行敏感操作时，请始终保持谨慎，并确保只对您信任的文件和命令进行相应的配置。
+使用 visudovisudo 是一个用于编辑 sudoers 文件的命令。通过编辑该文件，您可以配置允许特定用户执行特定命令时无需输入密码。
+1$ sudo visudo
+
+在打开的 sudoers 文件中，您可以找到 %admin ALL=(ALL) ALL 这样的行，将其替换为：
+1%admin ALL=(ALL) NOPASSWD: ALL
+
+这样一来，管理员组成员就无需输入密码即可执行任何命令。
+使用 KeychainmacOS Keychain 是一个密码管理工具，通过将 sudo 密码添加到 Keychain 中，可以省去每次输入密码的麻烦。
+1$ sudo visudo
+
+在打开的 sudoers 文件中，找到 %admin ALL=(ALL) ALL 这样的行，在其下方添加以下内 ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">小柒</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">9</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">15</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/erxiaoqi"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎来到我的博客</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/08/08/%E7%AC%94%E8%AF%95%E9%A2%98/" title="笔试题">笔试题</a><time datetime="2023-08-08T05:04:14.000Z" title="发表于 2023-08-08 13:04:14">2023-08-08</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/08/08/%E6%B5%8F%E8%A7%88%E5%99%A8%E9%9D%A2%E8%AF%95%E9%A2%98/" title="浏览器面试题">浏览器面试题</a><time datetime="2023-08-08T04:48:59.000Z" title="发表于 2023-08-08 12:48:59">2023-08-08</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/08/08/HTML-%E9%9D%A2%E8%AF%95%E9%A2%98/" title="HTML 面试题">HTML 面试题</a><time datetime="2023-08-08T04:48:09.000Z" title="发表于 2023-08-08 12:48:09">2023-08-08</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/08/07/JavaScript-%E9%9D%A2%E8%AF%95%E9%A2%98/" title="JavaScript 面试题">JavaScript 面试题</a><time datetime="2023-08-07T14:45:40.000Z" title="发表于 2023-08-07 22:45:40">2023-08-07</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/08/07/Webpack-%E9%9D%A2%E8%AF%95%E9%A2%98/" title="Webpack 面试题">Webpack 面试题</a><time datetime="2023-08-07T14:43:31.000Z" title="发表于 2023-08-07 22:43:31">2023-08-07</time></div></div></div></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E7%AC%94%E8%AF%95%E9%A2%98/" style="font-size: 1.1em; color: #999">笔试题</a> <a href="/tags/React/" style="font-size: 1.1em; color: #999">React</a> <a href="/tags/Webpack/" style="font-size: 1.1em; color: #999">Webpack</a> <a href="/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/" style="font-size: 1.1em; color: #999">浏览器</a> <a href="/tags/Mac/" style="font-size: 1.1em; color: #999">Mac</a> <a href="/tags/sudo/" style="font-size: 1.1em; color: #999">sudo</a> <a href="/tags/%E6%95%88%E7%8E%87/" style="font-size: 1.1em; color: #999">效率</a> <a href="/tags/TypeScript/" style="font-size: 1.1em; color: #999">TypeScript</a> <a href="/tags/CSS/" style="font-size: 1.1em; color: #999">CSS</a> <a href="/tags/JavaScript/" style="font-size: 1.3em; color: #99a1ac">JavaScript</a> <a href="/tags/macOS/" style="font-size: 1.1em; color: #999">macOS</a> <a href="/tags/%E7%AE%A1%E7%90%86%E5%91%98%E6%9D%83%E9%99%90/" style="font-size: 1.1em; color: #999">管理员权限</a> <a href="/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C/" style="font-size: 1.1em; color: #999">命令行</a> <a href="/tags/%E5%B7%A5%E5%85%B7/" style="font-size: 1.1em; color: #999">工具</a> <a href="/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/" style="font-size: 1.5em; color: #99a9bf">面试题</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/08/"><span class="card-archive-list-date">八月 2023</span><span class="card-archive-list-count">8</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/06/"><span class="card-archive-list-date">六月 2023</span><span class="card-archive-list-count">1</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">9</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2023-08-08T05:32:38.607Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By 小柒</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>(() => {
+  function loadValine () {
+    function initValine () {
+      let initData = {
+        el: '#vcomment',
+        appId: '',
+        appKey: '',
+        serverURLs: ''
+      }
+      
+      const valine = new Valine(initData)
+    }
+
+    if (typeof Valine === 'function') initValine() 
+    else getScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js').then(initValine)
+  }
+
+  window.pjax ? loadValine() : window.addEventListener('load', loadValine)
+})()</script><script>window.typedJSFn = {
+  init: (str) => {
+    window.typed = new Typed('#subtitle', Object.assign({
+      strings: str,
+      startDelay: 300,
+      typeSpeed: 150,
+      loop: true,
+      backSpeed: 50,
+    }, null))
+  },
+  run: (subtitleType) => {
+    if (true) {
+      if (typeof Typed === 'function') {
+        subtitleType()
+      } else {
+        getScript('https://cdn.jsdelivr.net/npm/typed.js/dist/typed.umd.min.js').then(subtitleType)
+      }
+    } else {
+      subtitleType()
+    }
+  }
+}
+</script><script>function subtitleType () {
+  if (true) {
+    typedJSFn.init(["种自己的花，爱自己的宇宙。"])
+  } else {
+    document.getElementById("subtitle").textContent = '种自己的花，爱自己的宇宙。'
+  }
+}
+typedJSFn.run(subtitleType)</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
