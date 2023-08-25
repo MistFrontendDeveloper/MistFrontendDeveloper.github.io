@@ -1,7 +1,9 @@
 ---
-title: 前端手写代码
-date: 2023-08-12 23:34:14
+title: 前端笔试题
+date: 2023-08-12
 ---
+
+仅记录一些常见的前端笔试题，不定期更新。
 
 ## JS
 
@@ -252,6 +254,12 @@ _Promise.all = function (promises) {
     }
   })
 }
+```
+
+#### async/await
+
+```js
+
 ```
 
 #### import()
