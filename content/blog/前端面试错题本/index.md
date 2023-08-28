@@ -22,7 +22,7 @@ date: 2023-08-28
 - Webpack 的构建流程是什么?
 - Webpack 的热更新原理是什么?
 
-## TypeScript
+## TS
 
 - 如何实现一个 Pick 工具类型?
 
