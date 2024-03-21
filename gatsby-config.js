@@ -12,10 +12,10 @@ module.exports = {
     title: `Mist Blog`,
     author: {
       name: `迷雾`,
-      summary: `种自己的花，爱自己的宇宙。`,
+      summary: `平平无奇的前端一枚`,
     },
     // description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://MistFrontendDeveloper.github.io/`,
+    siteUrl: `https://mist0616.github.io/`,
     social: {
       //   twitter: `kylemathews`,
     },
