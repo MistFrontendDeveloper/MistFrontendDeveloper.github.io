@@ -6,14 +6,14 @@ title: 个人面试
 
 ### IDaaS Portal
 
+- 功能：提供登录、消息管理、应用管理、用户管理、角色管理、日志管理、安全策略、认证管理、组织管理、个性化设置、个人中心、菜单/按钮权限配置、行列数据权限配置等功能
 - 登录：
   - 通过 Cookie 实现跨域登录
   - 通过 JSSDK 和 IFrame 实现登录二维码
-- 主题切换：
-  - 通过 Antd5 ConfigProvider 实现主题切换
 
 ### Elsa CLI 脚手架
 
+- 功能：提供初始化项目的能力
 - 使用 commander 实现命令行注册，支持 create 和 help 命令
 - 使用 inquirer 实现模板选择
 - 使用 path、fs-extra 实现文件操作
@@ -22,7 +22,7 @@ title: 个人面试
 
 ### Elsa UI 组件库
 
-- 提供 ProTable、Modal、Button、Empty、ConfigProvider、App、WithApp、message、modal、notification、ErrorBoundary 等组件
+- 功能：提供 ProTable、Modal、Button、Empty、ConfigProvider、App、WithApp、message、modal、notification、ErrorBoundary 等组件
 - 使用 TypeScript 实现组件的类型定义
 - 组件仅提供样式，不提供逻辑，逻辑由业务方自行实现
 
@@ -38,6 +38,8 @@ title: 个人面试
   - 二次封装第三方 API，解决第三方之间方法名、参数、返回值、同异步、调用方式的差异
 
 ### 五号共享充电宝
+
+- 功能：提供充电设备的搜索、租借、归还、退款、买断等服务，内含首页、附近门店、个人中心、我的订单等模块
 
 - 蓝牙交互：
   - 二次封装小程序 API，解决微信、支付宝之间蓝牙 API 的差异，解决苹果和安卓之间蓝牙数据的差异
