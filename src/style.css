@@ -141,16 +141,16 @@ h6 {
   font-size: var(--fontSize-1);
 }
 
-h1 > a {
+h1>a {
   color: inherit;
   text-decoration: none;
 }
 
-h2 > a,
-h3 > a,
-h4 > a,
-h5 > a,
-h6 > a {
+h2>a,
+h3>a,
+h4>a,
+h5>a,
+h6>a {
   text-decoration: none;
   color: inherit;
 }
@@ -181,7 +181,7 @@ ol li {
   margin-bottom: calc(var(--spacing-8) / 2);
 }
 
-li > p {
+li>p {
   margin-bottom: calc(var(--spacing-8) / 2);
 }
 
@@ -189,7 +189,7 @@ li *:last-child {
   margin-bottom: var(--spacing-0);
 }
 
-li > ul {
+li>ul {
   margin-left: var(--spacing-8);
   margin-top: calc(var(--spacing-8) / 2);
 }
@@ -205,12 +205,12 @@ blockquote {
   margin-bottom: var(--spacing-8);
 }
 
-blockquote > :last-child {
+blockquote> :last-child {
   margin-bottom: var(--spacing-0);
 }
 
-blockquote > ul,
-blockquote > ol {
+blockquote>ul,
+blockquote>ol {
   list-style-position: inside;
 }
 
@@ -324,8 +324,53 @@ a:focus {
     padding: var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-4);
     margin-left: var(--spacing-0);
   }
+
   ul,
   ol {
     list-style-position: inside;
   }
+}
+
+body.light {
+  --bg: white;
+  --textNormal: #222;
+  --textLink: darkgoldenrod;
+  --quoteColor: hsla(0, 0%, 0%, 0.59);
+  --codeColor: rgba(25, 25, 25, 0.8);
+  --codeBlockBackground: #fdf6e3;
+}
+
+body.dark {
+  --bg: #282c35;
+  --textNormal: rgba(255, 255, 255, 0.88);
+  --textLink: yellow;
+  --quoteColor: hsla(0, 0%, 100%, 0.6);
+  --codeColor: hsla(0, 0%, 100%, 0.8);
+  --codeBlockBackground: #fdf6e3;
+}
+
+
+#gatsby-focus-wrapper {
+  background-color: var(--bg);
+  color: var(--textNormal);
+  transition: color 0.2s ease-out, background 0.2s ease-out;
+}
+
+#gatsby-focus-wrapper a {
+  color: var(--textLink);
+}
+
+#gatsby-focus-wrapper blockquote {
+  color: var(--quoteColor);
+}
+
+#gatsby-focus-wrapper .gatsby-highlight {
+  background-color: var(--codeBlockBackground);
+}
+
+#gatsby-focus-wrapper .language-text {
+  font-family: 'Iosevka Custom', 'Input Mono', 'Source Code Pro', 'Fira Mono', monospace;
+  color: var(--codeColor);
+  text-shadow: none;
+  background: none;
 }
