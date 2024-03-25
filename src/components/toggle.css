@@ -37,11 +37,11 @@
 
 .react-toggle-track-check {
   position: absolute;
-  width: 17px;
-  height: 17px;
-  left: 5px;
+  width: 20px;
+  height: 20px;
+  left: 6px;
   top: 0px;
-  bottom: 3px;
+  bottom: 0px;
   margin-top: auto;
   margin-bottom: auto;
   line-height: 0;
@@ -56,11 +56,11 @@
 
 .react-toggle-track-x {
   position: absolute;
-  width: 17px;
-  height: 17px;
-  right: 5px;
+  width: 20px;
+  height: 20px;
+  right: 2px;
   top: 0px;
-  bottom: 3px;
+  bottom: 0px;
   margin-top: auto;
   margin-bottom: auto;
   line-height: 0;
